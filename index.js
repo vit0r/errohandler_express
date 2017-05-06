@@ -14,9 +14,8 @@ app.get('/', (req, res) => {
     res.status(200).json(d);
 });
 
+app.use(erroHandler);
+
 app.listen(3000, () => {
     console.log('app listening on port 3000!');
 });
-
-app.use(erroHandler);
-
