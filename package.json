@@ -1,0 +1,25 @@
+{
+  "name": "errohandler_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vit0r/errohandler_express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vit0r/errohandler_express/issues"
+  },
+  "homepage": "https://github.com/vit0r/errohandler_express#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mocha": "^4.1.0",
+    "supertest": "^3.0.0",
+    "supertest-as-promised": "^4.0.2"
+  }
+}
